@@ -20,7 +20,7 @@ function startGame() {
   playerName.innerText = name;
 }
 
-// startGame();
+startGame();
 
 function computerMove() {
   let randomIndex = Math.floor(Math.random() * choices.length);
