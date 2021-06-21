@@ -1,0 +1,230 @@
+.rps {
+  min-height: 100vh;
+  background-image: url("./rock\,_paper_larger.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+#rockButton {
+  border: 3px solid;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  /* width: 15%; */
+}
+
+#paperButton {
+  border: 3px solid;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  /* width: 15%; */
+}
+
+#scissorsButton {
+  border: 3px solid;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  /* width: 15%; */
+}
+
+.results {
+  text-align: center;
+}
+
+.player {
+  border: 3px solid;
+  color: black;
+  font-size: 2.5rem;
+  margin: 1%;
+}
+
+#playerScore {
+  font-weight: 900;
+}
+
+#playerChoice {
+  font-size: 3.2rem;
+}
+
+.computer {
+  border: 3px solid;
+  color: black;
+  font-size: 2.5rem;
+  margin: 1%;
+}
+
+#computerScore {
+  font-weight: 900;
+}
+
+#computerChoice {
+  font-size: 3.2rem;
+}
+
+/* .results {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.player {
+  border: 3px solid;
+  color: black;
+  font-size: 2.7rem;
+  margin: 1%;
+}
+
+#playerScore {
+  font-weight: 900;
+}
+
+#playerChoice {
+  font-size: 3.5rem;
+}
+
+.computer {
+  border: 3px solid;
+  color: black;
+  font-size: 2.7rem;
+  margin: 1%;
+}
+
+#computerScore {
+  font-weight: 900;
+}
+
+#computerChoice {
+  font-size: 3.5rem;
+} */
+
+.reset {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+#reset {
+  border: 3px solid;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+#whatHappens {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+#winner {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.*/
+
+@media only screen and (min-device-width: 320px) {
+  .results {
+    text-align: center;
+  }
+
+  .player {
+    border: 3px solid;
+    color: black;
+    font-size: 2.7rem;
+    margin: 1%;
+  }
+
+  #playerScore {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  #playerChoice {
+    font-size: 3.5rem;
+  }
+
+  .computer {
+    border: 3px solid;
+    color: black;
+    font-size: 2.7rem;
+    margin: 1%;
+  }
+
+  #computerScore {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  #computerChoice {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-device-width: 500px) {
+  .results {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .player {
+    border: 3px solid;
+    color: black;
+    font-size: 2.2rem;
+    margin: 1%;
+  }
+
+  #playerScore {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  #playerChoice {
+    font-size: 3.1rem;
+  }
+
+  .computer {
+    border: 3px solid;
+    color: black;
+    font-size: 2.2rem;
+    margin: 1%;
+  }
+
+  #computerScore {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  #computerChoice {
+    font-size: 3.1rem;
+  }
+}
