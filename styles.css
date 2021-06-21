@@ -152,6 +152,75 @@
 1201px and more — Extra large screens, TV.*/
 
 @media only screen and (min-device-width: 320px) {
+  .title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #rockButton {
+    border: 3px solid;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+    /* width: 15%; */
+  }
+
+  #paperButton {
+    border: 3px solid;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+    /* width: 15%; */
+  }
+
+  #scissorsButton {
+    border: 3px solid;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+    /* width: 15%; */
+  }
+
+  .reset {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+  }
+
+  #reset {
+    border: 3px solid;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  #whatHappens {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+  #winner {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
   .results {
     text-align: center;
   }
