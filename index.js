@@ -14,7 +14,7 @@ let choices = ["rock", "paper", "scissors"];
 
 function startGame() {
   let start = alert("First to 5 wins");
-  console.log(start);
+  console.log("5 point win");
   let playerName = document.getElementById("name");
   let name = prompt("Enter Name...");
   playerName.innerText = name;
