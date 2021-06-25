@@ -1,8 +1,8 @@
 # 🌑 📜 ✂️
 
-# Rock Paper Scissors Hackathon HTML CSS JS
+# Rock Paper Scissors Hackathon <br/> HTML CSS JS
 
-<img src = "./HTMLCSSJS.png" width = "100px" height ="100px" alt = "HTML CSS JS logos"/>
+<img src = "./HTMLCSSJS.png" width = "250px" height ="150px" alt = "HTML CSS JS logos"/>
 
 ## School of Code Week 1 Day 5 Improved...
 
